@@ -1,5 +1,5 @@
 const cara = (pushname, prefix, botName, ownerName) => { 
-	return `🔰 -----[ *PANDUAN PENGGUNAAN ${botName}* ]----- 🔰
+	return `🔰 -----[ *PANDUAN PENGGUNAAN FUNKY BOT* ]----- 🔰
 Hallo, ${pushname} 👋
 Berikut adalah cara penggunaan *${botName}*
          ────────────────
@@ -10,17 +10,17 @@ Kirim gambar/video dengan caption sticker
 ➸ *${prefix}ttp*
 Text to sticker contoh : ${prefix}ttp Lann ID
 ➸ *${prefix}tts*
-Suara google contoh : ${prefix}tts id Hallo Ramlan
+Suara google contoh : ${prefix}tts id Hallo Funky
 ➸ *${prefix}toimg*
 Reply sticker yang mau dijadiin image
 ➸ *${prefix}nulis*
 Untuk menulis dibuku
 ➸ *${prefix}stalkig*
-Stalking instagram contoh : ${prefix}stalkig iamramlan_
+Stalking instagram contoh : ${prefix}stalkig jamer.fvnky
 ➸ *${prefix}quotes*
 Random quotes
 ➸ *${prefix}bikinquote*
-Membuat quotes contoh : ${prefix}bikinquote Kamu gay & Ramlan
+Membuat quotes contoh : ${prefix}bikinquote Kamu gay & Funky
 ➸ *${prefix}play*
 Mendownload lagu dari youtube bisa menggunakan text atau link
 ➸ *${prefix}yutubdl*
@@ -39,7 +39,7 @@ Gacha nomor yang ada di database / yang menggunakan bot
          ────────────────
 Note : Sisanya gunain otak kalian aja cape w jelasin :)
          ────────────────
-🔰 -----[ *TUMTOR BY RAMLAN ID* ]----- 🔰
+🔰 -----[ *TUMTOR BY FUNKY * ]----- 🔰
 `
 }
 
