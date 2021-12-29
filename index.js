@@ -1,5 +1,5 @@
 /*
-]=====> RAMLAN ID <=====[ ]=====> YT Ramlan ID <=====[ ]=====> 085559240360 <=====[
+]=====> Dzakwan Botz <=====[ ]=====> dzakwan608 <=====[ ]=====> 085559240360 <=====[
 */
 // ANAK ANJING PASTI YANG ATAS DI UBAH
 // NGOTAK KONSOL
@@ -43,9 +43,10 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { nad } = require('./language')
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:FUNKY ID\n' // GANTI NAMA LU
+            + 'FN: Dzakwan ID\n' // GANTI NAMA LU
             + 'ORG:OWNER BOTZ;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285735054693:+62 857-3505-4693\n' // GANTI NOMOR LU
+            + 'TEL;type=CELL;type=VOICE;waid=+
+6288902988455:+62 889-0298-8455\n' // GANTI NOMOR LU
             + 'END:VCARD'
 // UDAH SEGITU KONSOL KEBAWAH BIARIN AJA
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Ramlan.json'))
@@ -59,7 +60,7 @@ const {
     UserLimitz,
     CeerTod
 } = ngonsol
-// POWERED BY RAMLAN ID
+// POWERED BY DZAKWAN ID
 prefix = botPrefix
 blocked = []   
 limitawal = UserLimitz
@@ -368,7 +369,7 @@ baby.on('group-participants-update', async (anu) => {
             const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
             
 /*
-]=====> RAMLAN ID <=====[
+]=====> DZAKWAN ID <=====[
 */
             const isEventon = isGroup ? event.includes(from) : false
             const isRegistered = checkRegisteredUser(sender)
@@ -676,7 +677,7 @@ switch(command) {
                   if (isBanned) return reply(nad.baned())
 				if (!isRegistered) return reply(nad.noregis())
 				if (isLimit(sender)) return reply(nad.limitend(pusname))
-				if (args.length < 1) return reply(`Teksnya mana kak? Contoh : ${prefix}nulis Ramlan baik hati`)
+				if (args.length < 1) return reply(`Teksnya mana kak? Contoh : ${prefix}nulis Dzakwan baik hati`)
 				nul = body.slice(7)
 				reply('「❗」WAIT BRO GUE NULIS DUMLU YAKAN')
 				tak = await getBuffer(`https://api.zeks.xyz/api/nulis?text=${nul}&apikey=apivinz`)
@@ -688,7 +689,7 @@ switch(command) {
                   if (isBanned) return reply(nad.baned())
 				if (!isRegistered) return reply(nad.noregis())
 				if (!isPrem) return reply(nad.premium())
-				if (args.length < 1) return reply(`Teksnya mana kak? Contoh : ${prefix}nulis1 Ramlan baik hati`)
+				if (args.length < 1) return reply(`Teksnya mana kak? Contoh : ${prefix}nulis1 Dzakwan baik hati`)
 				ramlan = body.slice(8)
 				reply('「❗」WAIT BRO GUE NULIS DUMLU YAKAN')
 				buff = await getBuffer(`https://api.xteam.xyz/magernulis2?text=${ramlan}&APIKEY=${XteamKey}`)
@@ -699,7 +700,7 @@ switch(command) {
                   if (isBanned) return reply(nad.baned())
 				if (!isRegistered) return reply(nad.noregis())
 				if (!isPrem) return reply(nad.premium())
-				if (args.length < 1) return reply(`Teksnya mana kak? Contoh : ${prefix}nulis2 Ramlan baik hati`)
+				if (args.length < 1) return reply(`Teksnya mana kak? Contoh : ${prefix}nulis2 Dzakwan baik hati`)
 				laysha = body.slice(8)
 				reply('「❗」WAIT BRO GUE NULIS DUMLU YAKAN')
 				buff = await getBuffer(`https://api.xteam.xyz/magernulis3?text=${laysha}&APIKEY=${XteamKey}`)
@@ -725,7 +726,7 @@ switch(command) {
 				var gh = body.slice(11)
 				var nin = gh.split("&")[0];
 				var ja = gh.split("&")[1];
-				if (args.length < 1) return reply(`「❗」Contoh : ${prefix}ninjalogo Ramlan & Gans`)
+				if (args.length < 1) return reply(`「❗」Contoh : ${prefix}ninjalogo Dzakwan & Gans`)
 				reply(nad.wait())
 				buffer = await getBuffer(`https://api.xteam.xyz/textpro/ninjalogo?text=${nin}&text2=${ja}&APIKEY=${XteamKey}`)
 				baby.sendMessage(from, buffer, image, {quoted: mek})
@@ -748,7 +749,7 @@ switch(command) {
 				var gh = body.slice(9)
 				var porn = gh.split("&")[0];
 				var hub = gh.split("&")[1];
-				if (args.length < 1) return reply(`「❗」Contoh : ${prefix}pornhub Ramlan & Hub`)
+				if (args.length < 1) return reply(`「❗」Contoh : ${prefix}pornhub Dzakwan & Hub`)
 				reply(nad.wait())
 				alan = await getBuffer(`https://vinz.zeks.xyz/api/pornhub?text1=${porn}&text2=${hub}`)
 				baby.sendMessage(from, alan, image, {quoted: mek})
@@ -773,7 +774,7 @@ switch(command) {
 					var gh = body.slice(12)
 					var gli = gh.split("&")[0];
 					var tch = gh.split("&")[1];
-					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}glitchtext Ramlan & Gans`)
+					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}glitchtext Dzakwan & Gans`)
 					reply(nad.wait())
 					buffer = await getBuffer(`https://api.zeks.xyz/api/gtext?text1=${gli}&text2=${tch}&apikey=apivinz`)
 					baby.sendMessage(from, buffer, image, {quoted: mek})
@@ -793,7 +794,7 @@ switch(command) {
 				if (isBanned) return reply(nad.baned())
 				if (!isRegistered) return reply(nad.noregis())
 				if (isLimit(sender)) return reply(nad.limitend(pusname))
-				if (args.length < 1) return baby.sendMessage(from, 'Kode bahasanya mana kak? contoh : ${prefix}tts id Halo Ramlan', text, {quoted: mek})
+				if (args.length < 1) return baby.sendMessage(from, 'Kode bahasanya mana kak? contoh : ${prefix}tts id Halo Dzakwan', text, {quoted: mek})
 					const gtts = require('./lib/gtts')(args[0])
 					if (args.length < 2) return baby.sendMessage(from, `Teksnya mana kak | contoh : ${prefix}tts id ah yamate kudasai`, text, {quoted: mek})
 					dtt = body.slice(8)
@@ -812,7 +813,7 @@ switch(command) {
 					})
 					await limitAdd(sender)
 					break
-							case 'ttp': //By NOIR X RAMLAN ID
+							case 'ttp': //By NOIR x Dzakwan ID
 							pngttp = './temp/ttp.png'
 							webpng = './temp/ttp.webp'
 							const ttptext = body.slice(5)
@@ -862,7 +863,7 @@ switch(command) {
                 var gh = body.slice(12)
 					var quote = gh.split("&")[0];
 					var wm = gh.split("&")[1];
-					const pref = `yang mau dijadiin quote apaan, titit?\n\ncontoh : ${prefix}bikinquote aku bukan boneka & Kata Ramlan`
+					const pref = `yang mau dijadiin quote apaan, titit?\n\ncontoh : ${prefix}bikinquote aku bukan boneka & Kata Dzakwan`
 					if (args.length < 1) return reply(pref)
 					reply(nad.wait())
 					anu = await fetchJson(`https://terhambar.com/aw/qts/?kata=${quote}&author=${wm}&tipe=random`, {method: 'get'})
@@ -1286,7 +1287,7 @@ case 'neontext':
                   if (isBanned) return reply(nad.baned())
 				if (!isRegistered) return reply(nad.noregis())
 				if (!isPrem) return reply(nad.premium())
-					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}neontext Ramlan`)
+					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}neontext Dzakwan`)
 					neon = body.slice(10)
 					reply('「❗」WAIT GANS')
 					anu = await getBuffer(`https://api.xteam.xyz/textpro/neon?text=$APIKEY=${XteamKey}`)
@@ -1368,7 +1369,7 @@ case 'neontext':
                   if (isBanned) return reply(nad.baned())
 				if (!isRegistered) return reply(nad.noregis())
 					if (isLimit(sender)) return reply(nad.limitend(pusname))
-					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}blackpink Ramlan`)
+					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}blackpink Dzakwan`)
 					pink = body.slice(11)
 					reply('「❗」Hah Blekping :v')
 					lol = await getBuffer(`https://vinz.zeks.xyz/api/blackpink?text=${pink}`)
@@ -1715,7 +1716,7 @@ if (!isPrem) return reply(nad.premium())
      reply(nad.wait())
      anu = await fetchJson(`https://api.xteam.xyz/dl/play?lagu=${body.slice(6)}&APIKEY=${XteamKey}`)
      if (anu.error) return reply(anu.error)
-     infomp3 = `*「❗」Lagu Ditemukan「❗」*\n➸ Judul : ${anu.judul}\n➸ Size : ${anu.size}\n\n*[WAIT] Proses Dumlu Yakan*`
+     infomp3 = `*「❗」Lagu Ditemukan「❗」*\n➸ Judul : ${anu.judul}\n➸ Size : ${anu.size}\n\n*[WAIT] Sabar asu lagi loading*`
      bumfer = await getBuffer(anu.thumbnail)
      lamgu = await getBuffer(anu.url)
      baby.sendMessage(from, bumfer, image, {quoted: mek, caption: infomp3})
@@ -1728,7 +1729,7 @@ case 'ytmp3':
      reply(nad.wait())
      anu = await fetchJson(`https://st4rz.herokuapp.com/api/yta2?url=${body.slice(7)}`)
      if (anu.error) return reply(anu.error)
-     ingfomp3 = `*「❗」Lagu Ditemukan「❗」*\n➸ Judul : ${anu.title}\n\n*[WAIT] Proses Dumlu Yakan*`
+     ingfomp3 = `*「❗」Lagu Ditemukan「❗」*\n➸ Judul : ${anu.title}\n\n*[WAIT] Sabat asu lagi loading*`
      buffer = await getBuffer(anu.thumb)
      lagu = await getBuffer(anu.result)
      baby.sendMessage(from, buffer, image, {quoted: mek, caption: ingfomp3})
@@ -1775,7 +1776,7 @@ break
 				if ( checkATMuser(sender) >= total ) {
 					confirmATM(sender, total)
 					bayarLimit(sender, payout)
-					await reply(`*⟪ PEMBAYARAN BERHASIL ⟫*\n\n➸ pengirim : RAMLAN ID\n➸ penerima : ${pushname}\n➸ nominal pembelian : ${payout} \n➸ harga limit : ${koinPerlimit}/limit\n➸ sisa uang : ${checkATMuser(sender)}\n\nproses berhasil dengan SN\n${createSerial(15)}`)
+					await reply(`*⟪ PEMBAYARAN BERHASIL ⟫*\n\n➸ pengirim : Dzakwan ID\n➸ penerima : ${pushname}\n➸ nominal pembelian : ${payout} \n➸ harga limit : ${koinPerlimit}/limit\n➸ sisa uang : ${checkATMuser(sender)}\n\nproses berhasil dengan SN\n${createSerial(15)}`)
 				} 
 				break
 /*
@@ -1886,7 +1887,7 @@ break
             	case 'mining':
                       if (!isRegistered) return reply(nad.noregis())
                       if (isLimit(sender)) return reply(nad.limitend(pushname))
-                      if (!isEventon) return reply(`maaf ${pushname} event mining tidak di aktifkan sama owner Ramlan`)
+                      if (!isEventon) return reply(`maaf ${pushname} event mining tidak di aktifkan sama owner Dzakwan`)
                       if (isOwner) {
                       const one = 999999999
                       addLevelingXp(sender, one)
@@ -1963,7 +1964,7 @@ break
 				case 'info':
 					me = baby.user
 					uptime = process.uptime()
-					teks = `*➸ Nama bot* : ${me.name}\n*➸ OWNER* : ${ownerName}\n*➸ AUTHOR* : 𝗥𝗮𝗺𝗹𝗮𝗻 𝗜𝗗\n*➸ Nomor Bot* : @${me.jid.split('@')[0]}\n*➸ Prefix* : ${prefix}\n*➸ Total Block Contact* : ${blocked.length}\n*➸ The bot is active on* : ${kyun(uptime)}`
+					teks = `*➸ Nama bot* : ${me.name}\n*➸ OWNER* : ${ownerName}\n*➸ AUTHOR* : DZAKWAN\n*➸ Nomor Bot* : @${me.jid.split('@')[0]}\n*➸ Prefix* : ${prefix}\n*➸ Total Block Contact* : ${blocked.length}\n*➸ The bot is active on* : ${kyun(uptime)}`
 					buffer = await getBuffer(me.imgUrl)
 					baby.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -2022,12 +2023,12 @@ break
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						buff = await baby.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							baby.sendMessage(_.jid, buff, image, {caption: `*「 BABY BROADCAST 」*\n\n${body.slice(4)}`})
+							baby.sendMessage(_.jid, buff, image, {caption: `*「 DZAKWAN BROADCAST 」*\n\n${body.slice(4)}`})
 						}
 						reply('')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*「 BABY BROADCAST 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 DZAKWAN BROADCAST 」*\n\n${body.slice(4)}`)
 						}
 						reply('*「 SUKSES BOSKU 」*')
 					}
@@ -2041,7 +2042,7 @@ break
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						buff = await baby.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							baby.sendMessage(_.jid, buff, image, {caption: `*「 BC GROUP 」*\n\n➸ Dari Grup : ${groupName}\n➸ Pengirim : wa.me/${(sender.split('@')[0])}\n➸ Pesan : ${body.slice(6)}`})
+							baby.sendMessage(_.jid, buff, image, {caption: `*「 DZAKWAN BC 」*\n\n➸ Dari Grup : ${groupName}\n➸ Pengirim : wa.me/${(sender.split('@')[0])}\n➸ Pesan : ${body.slice(6)}`})
 						}
 						reply('*「 SUKSES BOSKU 」*')
 					} else {
@@ -2245,6 +2246,7 @@ break
 > TOBZ
 > XTEAM
 > MHANKBARBAR
+> DZAKWAN BOTZ
 > All Creator Bot WhatsApp
 */				
 			if (isGroup && !isCmd && isSimi && budy != undefined) {
